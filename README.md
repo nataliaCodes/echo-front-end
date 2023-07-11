@@ -12,16 +12,16 @@ Once the functional part of the website was built, we applied a touch of React B
 The app has a Node.js back-end that needs to be run in parallel. To start the front-end run `npm start`.
 
 #### Home page (can be accessed by logged in users and visitors)
-![home-page](https://github.com/nataliaCodes/echo/blob/master/screenshots/Echo-home.png)
+![home-page](https://github.com/nataliaCodes/echo/public/screenshots/Echo-home.png)
 
 #### Moments page (can be accessed by logged in users and visitors - vistors can use the slider but will need to log in or register to save video and moments)
-![moments-page](https://github.com/nataliaCodes/echo/blob/master/screenshots/Echo-moments.png)
+![moments-page](https://github.com/nataliaCodes/echo/public/screenshots/Echo-moments.png)
 
 #### Videos page (available to users only)
-![videos-page](https://github.com/nataliaCodes/echo/blob/master/screenshots/Echo-videos.png)
+![videos-page](https://github.com/nataliaCodes/echo/public/screenshots/Echo-videos.png)
 
 #### Categories page (available to users only)
-![categories-page](https://github.com/nataliaCodes/echo/blob/master/screenshots/Echo-categories.png)
+![categories-page](https://github.com/nataliaCodes/echo/public/screenshots/Echo-categories.png)
 
 #### Log in page (register page has similar design)
-![login-page](https://github.com/nataliaCodes/echo/blob/master/screenshots/Echo-login.png)
+![login-page](https://github.com/nataliaCodes/echo/public/screenshots/Echo-login.png)
