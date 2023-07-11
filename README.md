@@ -1,70 +1,27 @@
-# Getting Started with Create React App
+#### Echo is a two-person team project developed during the [Lighthouse Labs Web Development Bootcamp](https://www.lighthouselabs.ca/en/web-development-bootcamp).
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+### It is a ReactJS web app designed to allow its users to search for and save Youtube videos to their profile and save specific time snippets to that, which they can later play in a loop.
 
-## Available Scripts
+#### Tech stack
 
-In the project directory, you can run:
+Our app is powered by the Youtube search API​. We built our client side using the Create React App toolchain and used React Router for the front-end routes.
+Once the functional part of the website was built, we applied a touch of React Bootstrap components and a spoonful of SASS.
 
-### `npm start`
+#### To run
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+The app has a Node.js back-end that needs to be run in parallel. To start the front-end run `npm start`.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+#### Home page (can be accessed by logged in users and visitors)
+![home-page](https://github.com/nataliaCodes/echo/blob/master/screenshots/Echo-home.png)
 
-### `npm test`
+#### Moments page (can be accessed by logged in users and visitors - vistors can use the slider but will need to log in or register to save video and moments)
+![moments-page](https://github.com/nataliaCodes/echo/blob/master/screenshots/Echo-moments.png)
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+#### Videos page (available to users only)
+![videos-page](https://github.com/nataliaCodes/echo/blob/master/screenshots/Echo-videos.png)
 
-### `npm run build`
+#### Categories page (available to users only)
+![categories-page](https://github.com/nataliaCodes/echo/blob/master/screenshots/Echo-categories.png)
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+#### Log in page (register page has similar design)
+![login-page](https://github.com/nataliaCodes/echo/blob/master/screenshots/Echo-login.png)
