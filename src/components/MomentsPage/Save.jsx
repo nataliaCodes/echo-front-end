@@ -56,21 +56,20 @@ export default function Save({ videoInfo, setVideoInfo, selectedCat, categories,
         setShowAlert(false);
       };
     }
+
+    return catId.id;
   };
 
   const handleSave = () => {
 
     const categ_id = getCatid();
-    if (!categ_id) {
-      getCatid();
-    }
 
     if (!vidTitle) {
       setShowAlert(true);
     }
 
     const formatedLink = "https://www.youtube.com/watch?v=" + videoInfo.selectedVideoID;
-    const videoSaveInfo = { title: vidTitle, link: formatedLink, cat_id: state.categoryId };
+    const videoSaveInfo = { title: vidTitle, link: formatedLink, cat_id: categ_id };
 
     if (videoSaveInfo.cat_id) {
       handleClose();

@@ -22,7 +22,7 @@ export default function UserVideos(props) {
 
     setShowAlert(false);
 
-    return axios.delete('api/videos', { params: video.id })
+    return axios.delete('api/videos', { params: { id: video.id }})
       .then(response => {
         props.setState(prev => ({ ...prev, videos: videos.filter((vid) => vid.id !== video.id) }));
       })
